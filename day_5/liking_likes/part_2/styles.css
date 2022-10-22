@@ -1,0 +1,63 @@
+.navbar{
+    background-color: black;
+    color: aliceblue;
+    height: 40px;
+}
+.main_body{
+    display: flex;
+    justify-content: space-between;
+}
+.col_1{
+    flex: 1;
+    margin-right: 20px;
+}
+.col_2{
+    flex: 3;
+}
+.card{
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    padding: 20px;
+}
+.card>img{
+    width: 60px;
+}
+.likes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.likes>button{
+    background-color: goldenrod;
+    color: black;
+    width: 60px;
+    height: 20px;
+}
+.person_1{
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    margin-bottom: 20px;
+}
+.person_2{
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    margin-bottom: 20px;
+}
+.person_3{
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+}
+.bio{
+    padding: 20px;
+}
+.feed{
+    text-align: center;
+}

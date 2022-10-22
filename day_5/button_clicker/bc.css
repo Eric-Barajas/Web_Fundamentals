@@ -1,0 +1,57 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    align-items: center;
+}
+.main-button{
+    width: 250px;
+    height: 20px;
+    border-color: black;
+}
+.secondary-button{
+    width: 50px;
+    background-color: blue;
+    color: aliceblue;
+    box-shadow: 3px 3px black;
+    height: 20px;
+}
+.main-body{
+    display: flex;
+}
+.col1{
+    flex: 1;
+    padding: 20px 10px 0px 0px;
+}
+.col2{
+    flex: 1;
+    padding: 20px 0px 20px 10px;
+}
+.def1{
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    padding: 10px;
+    align-items: center;
+}
+.top{
+    margin-bottom: 20px;
+}
+.add-ons{
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    padding: 10px;
+}
+.add-ons>button{
+    background-color: lightgreen;
+    color: black;
+}
+.word>button{
+    background-color: yellow;
+    color: black;
+}

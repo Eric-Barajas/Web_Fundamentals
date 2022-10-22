@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* flex-ible columns dAY 3 */
+.row {
+    display: flex;
+    justify-content:space-around;
+    color: aliceblue;
+}
+.col {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(50, 154, 154);
+}
+.col-2 {
+    flex: 2;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(50, 154, 154);
+}
+.col-3 {
+    flex: 3;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(50, 154, 154);
+}
+/* FLEX_navabar day 3*/
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+.nav-links>li>a{
+color: aliceblue;
+text-decoration: none;
+}
+
+.nav-links>li{
+    margin: 0px 10px;
+}
+.btn{
+    background-color: rgb(109, 192, 237);
+    color: aliceblue;
+    width: 70px;
+    box-shadow: 2px 2px 1px black;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(80, 79, 79);
+    color: aliceblue;
+    padding: 5px;
+}
+/* Button_up day 2 */
+.circle{
+    background-color: rgb(71, 237, 182);
+    color: aliceblue;
+    border-radius: 50%;
+    font-size: 30px;
+    width: 40px;
+    border: 2px solid  rgb(71, 237, 182);
+    margin: 15px 0px 5px 20px;
+}
+.box{
+    background-color: blue;
+    color: aliceblue;
+    box-shadow: 2px 3px black;
+    width: 200px;
+    height: 30px;
+    margin: 15px 0px 5px 20px;
+}

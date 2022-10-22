@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 400px;
+    height: 250px;
+    
+    padding: 20px;
+}
+.stripe{
+    background-color: blue;
+    height: 20px;
+    margin: 20px;
+}
+.corner{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 120px;
+    left: 20px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto 0px;
+}
+.col{
+    height: 40px;
+    flex:1;
+    background-color: blue;
+}
+.col2{
+
+}
+.top{
+    margin-bottom: 20px;
+}
+.bottom{
+    margin-top: 15px;
+}
+.left{
+    margin-right: 10px;
+}
+.right{
+    margin-left: 10px;
+}

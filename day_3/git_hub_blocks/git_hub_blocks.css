@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container>h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.container>h6{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: gray;
+    text-align: center;
+}
+.top{
+    background-color: aqua;
+}
+.middle{
+    background-color: tomato;
+}
+.bottom{
+    background-color: antiquewhite;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 15px;
+}
+.container{
+    width: 500px;
+    height: 600px;
+    background-color: silver;
+}
+
+.row > img{
+    width: 100px;
+}

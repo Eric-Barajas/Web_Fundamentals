@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="mainnb">
+            <h1>Dojo Weather</h1>
+        </div>
+        <div>
+            <ul class="click-able">
+                <li onclick="popUp()">Burbank</li>
+                <li onclick="popUp()" class=" li-spacer">Chicago</li>
+                <li onclick="popUp()" >Dallas</li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="header">
+            <div>
+                <h2>San Jose</h2>
+            </div>
+            <div class="tempPositioning">
+                <p>show temperature in</p>
+                <select onchange="dropdown(this)" class="tempChange" name="temp" id="temp">
+                    <option>C°</option>
+                    <option>F°</option>
+                </select>
+            </div>
+        </div>
+        <div class="main-body">
+            <div class="card">
+                <h3>Today</h3>
+                <img src="./assets/some_rain.png" alt="">
+                <p>some rain</p>
+                <div class="low-high f1">
+                    <h4 class="red">24°</h4>
+                    <h4 class="blue">18°</h4>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Tomorrow</h3>
+                <img src="./assets/some_sun.png" alt="">
+                <p>some sun</p>
+                <div class="low-high f2">
+                    <h4 class="red">27°</h4>
+                    <h4 class="blue">19°</h4>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Friday</h3>
+                <img src="./assets/some_clouds.png" alt="">
+                <p>some clouds</p>
+                <div class="low-high f3">
+                    <h4 class="red">21°</h4>
+                    <h4 class="blue">16°</h4>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Saturday</h3>
+                <img src="./assets/some_sun.png" alt="">
+                <p>some sun</p>
+                <div class="low-high f4">
+                    <h4 class="red">26°</h4>
+                    <h4 class="blue">21°</h4>
+                </div>
+            </div>
+        </div>
+        <div class="bottomBanner">
+            <div>
+                <img src="./assets/cookie.png" alt="cookie">
+            </div>
+            <div class="gone">
+                <h1>Stop! Cookie time</h1>
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="">Read more</a> </p>
+            </div>
+            <div>
+                <button class="accept" onclick="disappear()">I Accept</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    width: 100%;
+}
+.headers{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.color-change{
+    color: gainsboro;
+}
+.sign-out{
+    display: flex;
+    align-items: center;
+}
+.sign-out>button{
+    background-color: rgb(0, 153, 255);
+    color: aliceblue;
+    width: 70px;
+}
+.container{
+    width: 70%;
+    margin:0 auto;
+}
+.flexed{
+    display:flex;
+    justify-content: space-between;
+}
+/* navbar */
+/* mainbody */
+.main-body{
+    display: flex;
+    margin-top: 30px;
+}
+.col1{
+    flex: 2;
+    margin-right: 30px;
+}
+.col2{
+    flex: 1;
+}
+.col1-b1{
+    margin-bottom: 30px;
+}
+.blue-header{
+    background-color: rgb(82, 150, 199);
+    padding: 20px;
+    flex: 1;
+    height: 60px;
+}
+.col2-b1{
+    margin-bottom: 30px;
+}
+.col-b2{
+    display: flex;
+    align-items: center;
+}
+.content{
+    flex: 2;
+    padding: 40px 20px 20px 20px;
+    border-right:4px solid rgb(146, 142, 142);
+    border-bottom:4px solid rgb(146, 142, 142);
+    border-left: 4px solid rgb(146, 142, 142);
+}
+.req-header{
+    background-color: rgb(63, 62, 62);
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.align>h2{
+    display: flex;
+    align-items: center;
+}
+.req-middle{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-right: 4px solid rgb(146, 142, 142);
+    border-left: 4px solid rgb(146, 142, 142);
+}
+.req-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-right: 4px solid rgb(146, 142, 142);
+    border-bottom: 4px solid rgb(146, 142, 142);
+    border-left: 4px solid rgb(146, 142, 142);
+}
+.edu-header{
+    padding: 20px;
+    background-color: rgb(63, 62, 62);
+    color: #fff;
+}
+.edu-content{
+    padding: 20px;
+    border-right: 4px solid rgb(146, 142, 142);
+    border-bottom: 4px solid rgb(146, 142, 142);
+    border-left: 4px solid rgb(146, 142, 142);
+}
+.reshape{
+    width: 40px;
+    margin-right: 10px;
+}
+.userpic{
+    width: 80px;
+    position: relative;
+    top: 40px;
+}
+.gearpic{
+    width: 20px;
+}
+.mapmarker{
+    width: 20px;
+}
+.connections{
+    padding: 10px;
+    border-right: 4px solid rgb(146, 142, 142);
+    border-bottom: 4px solid rgb(146, 142, 142);
+    border-left: 4px solid rgb(146, 142, 142);
+}
+.conec-header{
+    background-color: rgb(63, 62, 62);
+    color: #fff;
+    padding: 10px;
+}
+.connec-home{
+    padding: 20px;
+    border-right: 4px solid rgb(146, 142, 142);
+    border-bottom: 4px solid rgb(146, 142, 142);
+    border-left: 4px solid rgb(146, 142, 142);
+}
+.connections>h2{
+    display: flex;
+    align-items: center;
+}
+.circle{
+    border-radius: 50px;
+    width: 30px;
+    font-size: large;
+    margin-right: 4px;
+    border: none;
+    padding: 4px;
+    background-color: rgb(194, 189, 189);
+}
+.pill{
+    border-radius: 50%;
+    width: 50px;
+    height: 20px;
+    font-size: large;
+    border: none;
+    background-color: rgb(194, 189, 189);
+}
+/* mainbody */

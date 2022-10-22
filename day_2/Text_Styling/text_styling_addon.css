@@ -1,0 +1,8 @@
+*{
+    margin: 5;
+    padding:0;
+}
+h1 {text-align: left;background-color: black;color: aliceblue;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+span {color: aqua;}
+h2 {text-align: center;background-color: blueviolet;color: antiquewhite;font-style: italic;}
+h3 {text-align: right; text-decoration: underline;background-color: aquamarine;color: black;}

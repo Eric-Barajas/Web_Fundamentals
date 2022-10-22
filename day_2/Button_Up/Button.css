@@ -1,0 +1,27 @@
+
+.pill{
+    background-color: aliceblue;
+    color: rgb(57, 195, 131);
+    border-radius: 15px;
+    border: 2px solid rgb(57, 195, 131) ;
+    width: 150px;
+    height: 30px;
+    margin: 20px 0px 5px 20px;
+}
+.circle{
+    background-color: rgb(71, 237, 182);
+    color: aliceblue;
+    border-radius: 50%;
+    font-size: 30px;
+    width: 40px;
+    border: 2px solid  rgb(71, 237, 182);
+    margin: 15px 0px 5px 20px;
+}
+.box{
+    background-color: blue;
+    color: aliceblue;
+    box-shadow: 2px 3px black;
+    width: 200px;
+    height: 30px;
+    margin: 15px 0px 5px 20px;
+}
